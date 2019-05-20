@@ -11,7 +11,7 @@ int bottomCaptorPin = 7;
 int nbrTimeRun = 3000;
 long nbrTimePause = 300000;
 
-void digitalClockDisplay();
+bool isInTimeRange();
 
 void setup() {
   Serial.begin(9600);
